@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your GIF</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Press Start 2P', cursive;
+            background: url('your_animation.gif') no-repeat center center fixed;
+            background-size: cover;
+            image-rendering: pixelated;
+        }
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        img {
+            max-width: 30%;
+            height: auto;
+            border-radius: 5px;
+            cursor: pointer; /* Shows the user it's clickable */
+        }
+
+        p {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #FFFFFF;
+            text-align: center;
+            width: 80%;
+            max-width: 600px;
+            font-family: 'Press Start 2P', cursive;
+            image-rendering: pixelated; /* Pixelated text effect */
+        }
+
+        @font-face {
+            font-family: 'Press Start 2P';
+            src: url('https://fonts.gstatic.com/s/pressstart2p/v10/8QIHdirahM3j_vu-sws5a9P5jf2Ct3hT.woff2') format('woff2');
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Clicking the GIF will return the user to the "click_me.html" page -->
+    <a href="click me.html">
+        <img src="picture.gif" alt="Your GIF">
+    </a>
+
+    <p>Little Andie, is proud of you, I love you Bubba! Fighting RAHHHH.</p>
+
+</body>
+</html>
